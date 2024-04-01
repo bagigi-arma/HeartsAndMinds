@@ -9,7 +9,7 @@ class Params {
         title = __EVAL(format ["      %1", localize "STR_A3_CFGVEHICLES_MODULEDATE_F_ARGUMENTS_HOUR_0"]);
         values[]={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24};
         texts[]={"1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"};
-        default = 12;
+        default = 16;
     };
     class btc_p_acctime { // Acceleration time multiplier:
         title = __EVAL(format ["      %1", localize "STR_USRACT_TIME_INC"]);
@@ -21,13 +21,13 @@ class Params {
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_CHANGE_TIME_ENABLEARSENAL"]);
         values[]={0,1};
         texts[]={$STR_DISABLED,$STR_ENABLED};
-        default = 0;
+        default = 1;
     };    
     class btc_p_change_weather { // Enable change weather for officer on the arsenal box
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_CHANGE_WEATHER_ENABLEARSENAL"]);
         values[]={0,1};
         texts[]={$STR_DISABLED,$STR_ENABLED};
-        default = 0;
+        default = 1;
     };
     class btc_p_db_title { // << Server management >>
         title = $STR_BTC_HAM_PARAM_DB_TITLE;
@@ -45,7 +45,7 @@ class Params {
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_DB_ASAVE"]);
         values[]={0,1};
         texts[]={$STR_DISABLED,$STR_ENABLED}; // texts[]={"Off","On"};
-        default = 0;
+        default = 1;
     };
     class btc_p_db_autoRestartTime { // Time before auto restart/shutdown server
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_DB_ARESTARTTIME"]);
@@ -68,7 +68,7 @@ class Params {
     class btc_p_db_autoRestartType { // Auto restart/shutdown server (Must define in server.cfg: serverCommandPassword = "btc_password")
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_DB_ARESTART"]);
         values[]={1,2,3,4};
-        texts[]={$STR_DISP_MP_DS_RESTART,$STR_BTC_HAM_PARAM_DB_SHUTDOWN,$STR_BTC_HAM_PARAM_DB_SAVERESTART, $STR_BTC_HAM_PARAM_DB_SAVESHUTDOWN}; // texts[]={"Restart", "Shutdown","Save and restart", "Save and shutdown"};
+        texts[]={$STR_DISP_MP_DS_RESTART,$STR_BTC_HAM_PARAM_DB_SHUTDOWN,$STR_BTC_HAM_PARAM_DB_SAVERESTART, $STR_BTC_HAM_PARAM_DB_SAVESHUTDOWN}; // texts[]={"Off","Restart", "Shutdown","Save and restart", "Save and shutdown"};
         default = 4;
     };
     class btc_p_respawn_title { // << Respawn options >>
@@ -81,13 +81,13 @@ class Params {
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_RESP_LOCATION"]);
         values[]={0,1,2,3,4};
         texts[]={$STR_BTC_HAM_RESP_FOBRALLY, $STR_BTC_HAM_RESP_FOBRALLYHELO, $STR_BTC_HAM_RESP_FOBRALLYHELI, $STR_BTC_HAM_RESP_FOBRALLYHELIVEHI, $STR_BTC_HAM_RESP_FOBRALLYHELIVEHILEADER};
-        default = 4;
+        default = 3;
     };
     class btc_p_respawn_fromFOBToBase { // Allow respawn from FOB to base:
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_RESP_FOBTOBASE"]);
         values[]={0,1};
         texts[]={$STR_DISABLED, $STR_ENABLED};
-        default = 0;
+        default = 1;
     };
     class btc_p_rallypointTimer { // Time before rallypoint self-destruction:
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_RESP_RALLYTIMER"]);
@@ -153,7 +153,7 @@ class Params {
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_FAC_EAA"]);
         values[]={0,1};
         texts[]={$STR_DISABLED,$STR_ENABLED};
-        default = 0;
+        default = 1;
     };
     class btc_p_tank { // Enemy uses Tank:
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_FAC_ETANK"]);
@@ -219,7 +219,7 @@ class Params {
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_SPAWN_ARMEDHIDEOUT"]);
         values[] = {0,1};
         texts[] = {$STR_DISABLED,$STR_ENABLED};
-        default = 0;
+        default = 1;
     };
     class btc_p_veh_armed_spawn_more { // Add armed vehicles in Side mission/Cache:
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_SPAWN_ARMEDOTHER"]);
@@ -393,7 +393,7 @@ class Params {
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_GAMEPLAY_SEA"]);
         values[] = {0,1};
         texts[] = {$STR_DISABLED,$STR_ENABLED};
-        default = 1;
+        default = 0;
     };
     class btc_p_chem { // Chemical warfare
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_GAMEPLAY_CHEM"]);
@@ -411,7 +411,7 @@ class Params {
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_GAMEPLAY_SIDEM"]);
         values[] = {0,1,2,3,4};
         texts[] = {$STR_DISABLED,1,2,3,4};
-        default = 0;
+        default = 2;
     };
     class btc_p_arsenal_title { // << Arsenal options >>
         title = $STR_BTC_HAM_PARAM_ARSENAL_TITLE;
@@ -429,19 +429,19 @@ class Params {
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_ARSENAL_ARSENALRESTR"]);
         values[]={0,1,2,3};
         texts[] = {$STR_DISABLED,$STR_3DEN_ATTRIBUTES_SPEEDMODE_FULL,$STR_BTC_HAM_PARAM_ARSENAL_ARSENALRESTR_REMOVEONLY,$STR_BTC_HAM_PARAM_ARSENAL_ARSENALRESTR_FILTER}; //texts[]={"Off","Full","Remove only (works only with ACE3-Arsenal)","Filter on player role (works only with ACE3-Arsenal)"};
-        default = 3;
+        default = 1;
     };
     class btc_p_autoloadout { // loadout:
         title = __EVAL(format ["      %1:", localize "STR_ACE_Interaction_Equipment"]);
         values[]={0,1,2};
         texts[]={$STR_DISABLED,$STR_BTC_HAM_PARAM_ARSENAL_AUTOLOADOUT, $STR_BTC_HAM_PARAM_ARSENAL_RMVWEAPONS};
-        default = 1;
+        default = 0;
     };
     class btc_p_garage { // Activate garage for admin:
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_ARSENAL_GARAGEADMIN"]);
         values[]={0,1};
         texts[]={$STR_DISABLED,$STR_ENABLED};
-        default = 0;
+        default = 1;
     };
     class btc_p_main_title { // << Other options >>
         title = $STR_BTC_HAM_PARAM_OTHER_TITLE;
@@ -465,13 +465,13 @@ class Params {
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_OTHER_SPAWNRAD"]);
         values[]={0,1,2,3,4,5,6,7,8};
         texts[]={"0 m","100 m","200 m",$STR_BTC_HAM_PARAM_OTHER_SPAWNRAD_DEF,"400 m","500 m (Takistan)","600 m","700 m","800 m"}; // texts[]={"0 m","100 m","200 m","300 m","400 m","500 m (Takistan)","600 m","700 m","800 m"};
-        default = 3;
+        default = 5;
     };
     class btc_p_trigger { // Disable city activation when a plane or helicopter (>190Km/h) is flying above:
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_OTHER_DISABLESPAWN"]);
         values[]={0,1};
         texts[]={$STR_DISABLED,$STR_ENABLED};
-        default = 0;
+        default = 1;
     };
     class btc_p_city_free_trigger { // City will be free if number of enemies is equal or lower than:
         title = __EVAL(format ["      %1", localize "STR_BTC_HAM_PARAM_OTHER_CITYFREE"]);
