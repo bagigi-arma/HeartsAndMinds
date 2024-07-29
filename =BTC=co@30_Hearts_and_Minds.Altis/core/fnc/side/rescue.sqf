@@ -65,7 +65,7 @@ private _bank = if (random 1 > 0.5) then {
 [_heli, _pitch, _bank] call BIS_fnc_setPitchBank;
 private _fx = createVehicle ["test_EmptyObjectForSmoke", _pos, [], 0, "CAN_COLLIDE"];
 
-private _group = createGroup btc_player_side;
+private _group = createGroup civilian;
 _group setVariable ["no_cache", true];
 private _crew = getText (configfile >> "CfgVehicles" >> _heli_type >> "crew");
 _crew createUnit [_pos, _group];
