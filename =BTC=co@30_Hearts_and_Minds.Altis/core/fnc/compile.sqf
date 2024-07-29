@@ -436,6 +436,11 @@ if (!isDedicated) then {
 
     //SLOT
     btc_slot_fnc_deserializeState = compileScript ["core\fnc\slot\deserializeState.sqf"];
+
+    //CUSTOM PLAYER FUNCTIONS
+    rusher_setRoles = compileScript ["setRoles.sqf"];
+    rusher_canContactCarrier = compileScript ["canContactCarrier.sqf"];
+    rusher_canContactVehicle = compileScript ["canContactVehicle.sqf"];
 };
 
 /////////////////////HEADLESS\\\\\\\\\\\\\\\\\\\\\
