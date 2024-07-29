@@ -66,11 +66,22 @@ while {insideBuilding _officer < 0.1 && _i < count _buildingPos} do {
     _i = _i + 1;
 };
 
+//// Randomize Task position, but keep target house be within 50m radius of the task
+private _taskPosition = position _house;
+_taskPosition = _taskPosition vectorAdd [(random 35) - 35, (random 35) - 35]; // 35 = 50 * sin(45)
+//// Visualize area of uncertainty with marker
+private _area = createMarker [format ["sm_%1", _taskPosition], _taskPosition];
+_area setMarkerShape "ELLIPSE";
+_area setMarkerBrush "SolidBorder";
+_area setMarkerSize [50, 50];
+_area setMarkerAlpha 0.3;
+_area setMarkerColor "ColorBlue";
+
 //// Data side mission
 private _officerName = name _officer;
 [_taskID, 25, objNull, [_officerName, _city getVariable "name"]] call btc_task_fnc_create;
 private _kill_taskID = _taskID + "ki";
-[[_kill_taskID, _taskID], 26, _officer, [_officerName, _city getVariable "name", _officerType]] call btc_task_fnc_create;
+[[_kill_taskID, _taskID], 26, _taskPosition, [_officerName, _city getVariable "name", _officerType]] call btc_task_fnc_create;
 
 private _ehDeleted = [_officer, "Deleted", {
     params [
@@ -105,18 +116,18 @@ waitUntil {sleep 5;
     !alive _officer
 };
 if (_taskID call BIS_fnc_taskState isEqualTo "CANCELED") exitWith {
-    [[], _toDelete] call btc_fnc_delete;
+    [[_area], _toDelete] call btc_fnc_delete;
 };
 
 [_kill_taskID, "SUCCEEDED"] call BIS_fnc_taskSetState;
 private _dogTag_taskID = _taskID + "dt";
-[[_dogTag_taskID, _taskID], 27, _officer, _officerName] call btc_task_fnc_create;
+[[_dogTag_taskID, _taskID], 27, _taskPosition, _officerName] call btc_task_fnc_create;
 private _officer_dogtagData = [_officer] call ace_dogtags_fnc_getDogtagData;
 private _globalVariableName = format ["btc_%1", _dogTag_taskID];
 
 ["btc_side_killDogTagFound", {
     params ["_globalVariableName", "_dogTag"];
-    _thisArgs params ["_officer_dogtagData", "_dogTag_taskID", "_taskID", "_thisArgs_globalVariableName", "_officer", "_ehDeleted"];
+    _thisArgs params ["_officer_dogtagData", "_dogTag_taskID", "_taskID", "_thisArgs_globalVariableName", "_officer", "_ehDeleted", "_area"];
 
     if (_thisArgs_globalVariableName isEqualTo _globalVariableName) then {
         [_thisType, _thisId] call CBA_fnc_removeEventHandler;
@@ -126,8 +137,9 @@ private _globalVariableName = format ["btc_%1", _dogTag_taskID];
         [[_taskID + "bs", _taskID], 28, btc_create_object_point, [_officer_dogtagData select 0, typeOf btc_create_object_point]] call btc_task_fnc_create;
         missionNamespace setVariable [_globalVariableName, _dogTag];
         [_dogTag, _taskID] remoteExecCall ["btc_eh_fnc_trackItem", [0, -2] select isDedicated, _officer];
+        deleteMarker _area;
      };
-}, [_officer_dogtagData, _dogTag_taskID, _taskID, _globalVariableName, _officer, _ehDeleted]] call CBA_fnc_addEventHandlerArgs;
+}, [_officer_dogtagData, _dogTag_taskID, _taskID, _globalVariableName, _officer, _ehDeleted, _area]] call CBA_fnc_addEventHandlerArgs;
 
 ["ace_dogtags_broadcastDogtagInfo", {
     params ["_dogTag", "_dogTagData"];
@@ -166,10 +178,12 @@ _group_officer setVariable ["no_cache", false];
     _x setVariable ["no_cache", false];
 } forEach _group;
 
-[[], _toDelete] call btc_fnc_delete;
+[[_area], _toDelete] call btc_fnc_delete;
 removeMissionEventHandler ["HandleDisconnect", _IDEH_HandleDisconnect];
 if ((_taskID call BIS_fnc_taskState) in ["CANCELED", "FAILED"]) exitWith {[_taskID, _taskID call BIS_fnc_taskState] call btc_task_fnc_setState};
 
 40 call btc_rep_fnc_change;
 
 [_taskID, "SUCCEEDED"] call btc_task_fnc_setState;
+
+deleteMarker _area;
