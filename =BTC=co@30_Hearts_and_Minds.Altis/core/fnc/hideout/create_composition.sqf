@@ -35,7 +35,7 @@ private _composition_hideout = [
     [selectRandom btc_type_sleepingbag,135.477,[0.758789,-3.91309,0]],
     [_power,77.6499,[0.418945,3.51855,0]],
     [selectRandom btc_type_seat,171.123,[-2.08203,-3.39795,0]],
-    ["Flag_Red_F",0,[0,0,0]],
+    ["Flag_TKM_O",0,[0,0,0]],
     [selectRandom btc_type_sleepingbag,161.515,[-0.726563,-4.76953,0]],
     [selectRandom btc_type_satelliteAntenna,304.749,[-3.71973,2.46143,0]],
     [selectRandom btc_type_seat,279.689,[-4.52783,-0.76416,0]],

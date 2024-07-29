@@ -19,6 +19,7 @@ btc_p_db_autoRestartHour = [
 ];
 btc_p_db_autoRestartType = "btc_p_db_autoRestartType" call BIS_fnc_getParamValue;
 btc_p_slot_isShare = "btc_p_slot_isShare" call BIS_fnc_getParamValue isEqualTo 1;
+btc_p_slot_isSaved = "btc_p_slot_isSaved" call BIS_fnc_getParamValue isEqualTo 1;
 btc_p_change_time = ("btc_p_change_time" call BIS_fnc_getParamValue) isEqualTo 1;
 btc_p_change_weather = ("btc_p_change_weather" call BIS_fnc_getParamValue) isEqualTo 1;
 
@@ -230,7 +231,7 @@ if (isServer) then {
 
     //Side
     btc_side_ID = 0;
-    btc_side_list = ["supply", "mines", "vehicle", "get_city", "tower", "civtreatment", "checkpoint", "convoy", "rescue", "capture_officer", "hostage", "hack", "kill", "EMP", "removeRubbish", "massacre"]; // On ground (Side "convoy" and "capture_officer" are not design for map with different islands. Start and end city can be on different islands.)
+    btc_side_list = ["supply", "mines", "vehicle", "get_city", "tower", "civtreatment", "checkpoint", "convoy", "rescue", "capture_officer", "hostage", "hack", "kill", "massacre"/*, "EMP", "removeRubbish"*/]; // On ground (Side "convoy" and "capture_officer" are not design for map with different islands. Start and end city can be on different islands.)
     if (btc_p_sea) then {btc_side_list append ["civtreatment_boat", "underwater_generator"]}; // On sea
     if (btc_p_chem_sides) then {btc_side_list append ["chemicalLeak", "pandemic"]};
     btc_side_list_use = [];
@@ -241,7 +242,7 @@ if (isServer) then {
     btc_type_box = ["Box_East_Wps_F", "Box_East_WpsSpecial_F", "Box_East_Ammo_F"] + (btc_cache_type select 0);
     btc_type_generator = _allClassSorted select {_x isKindOf "Land_Device_assembled_F"};
     btc_type_storagebladder = _allClassSorted select {_x isKindOf "StorageBladder_base_F"};
-    btc_type_mines = ["APERSMine", "APERSBoundingMine", "APERSTripMine"];
+    btc_type_mines = ["rhs_mine_pfm1", "rhs_mine_mk2_pressure", "rhssaf_mine_pma3"];
     btc_type_power = ["Land_PowerGenerator_F", "Land_PortableGenerator_01_F"] + (_allClassSorted select {_x isKindOf "Machine_base_F"});
     btc_type_cord = ["Land_ExtensionCord_F"];
     btc_type_cones = ["Land_RoadCone_01_F", "RoadCone_F", "RoadCone_L_F"];
@@ -404,18 +405,18 @@ btc_civ_type_veh = _allclasse select 2;
 btc_civ_type_boats = _allclasse select 1;
 
 btc_w_civs = [
-    ["srifle_DMR_06_hunter_F", "sgun_HunterShotgun_01_F", "srifle_DMR_06_hunter_khs_F", "sgun_HunterShotgun_01_Sawedoff_F", "Hgun_PDW2000_F", "arifle_AKM_F", "arifle_AKS_F"],
-    ["hgun_Pistol_heavy_02_F", "hgun_Rook40_F", "hgun_Pistol_01_F"]
+    ["uk3cb_ak47", "UK3CB_CZ550", "rhs_weap_kar98k", "rhs_weap_Izh18", "UK3CB_Uzi"],
+    ["rhs_weap_makarov_pm", "UK3CB_Micro_Uzi"]
 ];
-btc_g_civs = ["HandGrenade", "MiniGrenade", "ACE_M84", "ACE_M84"];
+btc_g_civs = ["rhs_mag_rgd5"];
 
 // ANIMALS
 btc_animals_type = ["Hen_random_F", "Cock_random_F", "Fin_random_F", "Alsatian_Random_F", "Goat_random_F", "Sheep_random_F"];
 
 //FOB
-btc_fob_mat = "Land_Cargo20_blue_F";
-btc_fob_structure = "Land_Cargo_HQ_V1_F";
-btc_fob_flag = "Flag_NATO_F";
+btc_fob_mat = "Land_CargoBox_V1_F";
+btc_fob_structure = "TK_WarfareBBarracks_Base_EP1";
+btc_fob_flag = "Flag_TKA_B_Army";
 btc_fob_id = 0;
 btc_fob_minDistance = 1500;
 btc_fob_timeout = 1 * 60;
@@ -466,8 +467,8 @@ btc_type_hazmat = ["HazmatBag_01_F", "Land_MetalBarrel_F"] + (_allClassSorted se
 btc_containers_mat = ["Land_Cargo20_military_green_F", "Land_Cargo40_military_green_F"];
 
 //Player
-btc_player_side = west;
-btc_respawn_marker = "respawn_west";
+btc_player_side = independent;
+btc_respawn_marker = "respawn_independent";
 btc_player_type = ["SoldierWB", "SoldierEB", "SoldierGB"] select ([west, east, independent] find btc_player_side);
 
 //Log
@@ -674,6 +675,9 @@ switch (_p_en) do {
         btc_type_motorized_armed = btc_type_motorized_armed + ["I_Heli_light_03_F", "I_G_Offroad_01_F"];
         btc_type_units = btc_type_units - ["I_C_Soldier_Camo_F"];
     };
+    case "UK3CB_TKM_O" : {
+        btc_type_motorized_armed = btc_type_motorized_armed - ["UK3CB_TKM_O_BMP1", "UK3CB_TKM_O_T55", "UK3CB_TKM_O_BRDM2_ATGM"];
+    };
 };
 
 //Chem
@@ -720,7 +724,7 @@ btc_rep_food = "ACE_Banana";
 btc_units_owners = [];
 
 //Door
-btc_door_breaking_time = 60;
+btc_door_breaking_time = 10;
 
 //Flag
 btc_flag_textures = [
