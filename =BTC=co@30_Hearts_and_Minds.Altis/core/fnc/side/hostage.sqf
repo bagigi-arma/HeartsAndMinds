@@ -67,8 +67,19 @@ while {insideBuilding _captive < 0.1 && _i < count _buildingPos} do {
     _i = _i + 1;
 };
 
+//// Randomize Task position, but keep target house be within 50m radius of the task
+private _taskPosition = position _house;
+_taskPosition = _taskPosition vectorAdd [(random 35) - 35, (random 35) - 35]; // 35 = 50 * sin(45)
+//// Visualize area of uncertainty with marker
+private _area = createMarker [format ["sm_%1", _taskPosition], _taskPosition];
+_area setMarkerShape "ELLIPSE";
+_area setMarkerBrush "SolidBorder";
+_area setMarkerSize [50, 50];
+_area setMarkerAlpha 0.3;
+_area setmarkercolor "colorBlue";
+
 //// Data side mission
-[_taskID, 15, _captive, [_city getVariable "name", _civType]] call btc_task_fnc_create;
+[_taskID, 15, _taskPosition, [_city getVariable "name", _civType]] call btc_task_fnc_create;
 
 private _group = [];
 {
@@ -109,13 +120,15 @@ _group_civ setVariable ["no_cache", false];
 } forEach _group;
 
 if (_taskID call BIS_fnc_taskState isEqualTo "CANCELED") exitWith {
-    [[], _group + [_group_civ, _trigger, _mine]] call btc_fnc_delete;
+    [[_area], _group + [_group_civ, _trigger, _mine]] call btc_fnc_delete;
 };
 if !(alive _captive) exitWith {
     [_taskID, "FAILED"] call BIS_fnc_taskSetState;
-    [[], _group + [_group_civ, _trigger, _mine]] call btc_fnc_delete;
+    [[_area], _group + [_group_civ, _trigger, _mine]] call btc_fnc_delete;
 };
 
 40 call btc_rep_fnc_change;
 
 [_taskID, "SUCCEEDED"] call BIS_fnc_taskSetState;
+
+deleteMarker _area;
