@@ -66,3 +66,7 @@ if (
     };
     [btc_player_side, _tickets] call BIS_fnc_respawnTickets;
 };
+
+// will make east friendly to west and vice versa
+east setFriend [west, 1];
+west setFriend [east, 1];
