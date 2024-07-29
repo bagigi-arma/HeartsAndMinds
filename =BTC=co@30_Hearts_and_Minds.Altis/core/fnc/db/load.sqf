@@ -274,7 +274,7 @@ private _markers_properties = +(profileNamespace getVariable [format ["btc_hm_%1
         ["_markerChannel", 0, [0]]
     ];
 
-    private _marker = createMarker [format ["_USER_DEFINED #0/%1/%2", _forEachindex, _markerChannel], _markerPos, _markerChannel];
+    private _marker = createMarker [format ["_USER_DEFINED #0/%1/%2 btc_hm", _forEachindex, _markerChannel], _markerPos, _markerChannel];
     _marker setMarkerText _markerText;
     _marker setMarkerColor _markerColor;
     _marker setMarkerType _markerType;
