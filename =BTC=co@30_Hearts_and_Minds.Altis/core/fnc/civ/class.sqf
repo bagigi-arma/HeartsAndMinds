@@ -77,6 +77,7 @@ _type_units = _type_units select {
     (_x find "_unarmed_") isEqualTo -1 &&
     getText (_cfgVehicles >> _x >> "vehicleClass") isNotEqualTo "MenVR"
 };
+_type_units = _type_units - ["UK3CB_TKC_C_SPOT", "UK3CB_TKC_C_PILOT"];
 _type_veh = _type_veh select {(getNumber (_cfgVehicles >> _x >> "isUav") isNotEqualTo 1) && !(_x isKindOf "Kart_01_Base_F")};
 
 [_type_units, _type_boats, _type_veh]
