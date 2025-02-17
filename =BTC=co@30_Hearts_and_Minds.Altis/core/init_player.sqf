@@ -91,6 +91,19 @@ addMissionEventHandler ["Draw3D", {
     ];
 }];
 
+/*[{
+    private _coreSignal = _this call acre_sys_signal_fnc_getSignalCore;
+    _coreSignal params ["_Px", "_maxSignal"];
+
+    // Check for active EMPs on the map
+    private _empObjects = btc_spect_emp;
+    private _empRange = btc_spect_range / 2;
+
+    // Check for transmitting and receiving radio being in range
+
+    [_Px, _signal]
+}] call acre_api_fnc_setCustomSignalFunc;*/
+
 // Add nearby heal interaction on main Arsenal
 btc_gear_object addAction ["<t color='#ff85ef'>Heal All within 50m</t>", "heal_nearby.sqf", [], 1];
 
