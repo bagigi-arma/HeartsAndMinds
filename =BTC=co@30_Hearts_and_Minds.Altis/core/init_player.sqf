@@ -69,7 +69,7 @@ btc_intro_done = [] spawn btc_respawn_fnc_intro;
 player addMPEventHandler ["MPRespawn", {
     private _pos = getPosASL player;
     if (_pos distance2D btc_gear_object < 20) then {
-        _pos set [2, 17]; // LHD Atlas main deck height
+        _pos set [2, 17.5]; // LHD Atlas main deck height
         [{player setPosASL (_this select 0);}, [_pos]] call CBA_fnc_execNextFrame;
     };
 }];

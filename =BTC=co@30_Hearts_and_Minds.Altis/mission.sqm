@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=485;
+		nextID=491;
 	};
 	class Camera
 	{
 		pos[]={15367.829,69.468903,429.39084};
-		dir[]={-0.76439691,-0.25473729,-0.59229213};
-		up[]={-0.20136292,0.96700943,-0.15602571};
-		aside[]={-0.61249781,-8.8359229e-08,0.79047376};
+		dir[]={-0.76439595,-0.25473684,-0.59229046};
+		up[]={-0.20136267,0.96701032,-0.15602541};
+		aside[]={-0.61249638,0,0.79047328};
 	};
 };
 binarizationWanted=0;
@@ -33105,7 +33105,7 @@ class Mission
 										singleType="ARRAY";
 										class value
 										{
-											items=527;
+											items=528;
 											class Item0
 											{
 												class data
@@ -37320,6 +37320,14 @@ class Mission
 												{
 													singleType="STRING";
 													value="UK3CB_G_Tactical_Clear_Shemagh_Tan";
+												};
+											};
+											class Item527
+											{
+												class data
+												{
+													singleType="STRING";
+													value="taro_vs17_panel";
 												};
 											};
 										};
