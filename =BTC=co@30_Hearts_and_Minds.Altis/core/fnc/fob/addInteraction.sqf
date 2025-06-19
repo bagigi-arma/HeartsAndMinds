@@ -47,13 +47,13 @@ if (_timeout) then {
     };
 };
 
-if (_isFull) then {
+/*if (_isFull) then {
     _actions pushBack ["redeploy", localize "STR_BTC_HAM_ACTION_BIRESPAWN", "\A3\ui_f\data\igui\cfg\simpleTasks\types\run_ca.paa", {
         if ([] call btc_fob_fnc_redeployCheck) then {
             [] call btc_respawn_fnc_force;
         };
     }, _condition];
-};
+};*/
 _actions pushBack ["base", localize "STR_BTC_HAM_ACTION_REDEPLOYBASE", getText (configfile >> "CfgMarkers" >> getMarkerType "btc_base" >> "icon"), {
     if ([] call btc_fob_fnc_redeployCheck) then {
         [_player, btc_respawn_marker, false] call BIS_fnc_moveToRespawnPosition

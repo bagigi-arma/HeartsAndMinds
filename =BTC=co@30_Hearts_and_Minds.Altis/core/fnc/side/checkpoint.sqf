@@ -69,7 +69,7 @@ for "_i" from 1 to (2 + round random 2) do {
         [_type_barrel,20,[-0.131836,3.12939,0]],
         ["Land_BagFence_Long_F",90,[0.769531,-4.021,0]],
         ["Land_BagFence_Long_F",90,[-0.638672,4.31787,0]],
-        ["Flag_Red_F",-90,[2.23193,-4.375,0]],
+        ["uns_FlagCarrierVC",-90,[2.23193,-4.375,0]],
         [_type_barrel_canister1,0,[1.27393,-4.93604,0]],
         [_type_pallet,-70,[-5,3.75342,0]],
         [_type_barrel_canister2,0,[1.83984,-4.95264,0]],
