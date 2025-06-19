@@ -121,9 +121,9 @@ if (_type_boats isEqualTo []) then {
 if (_type_mg isEqualTo []) then {
     _type_mg = ["O_HMG_01_F", "O_HMG_01_high_F"];
 };
-if (_type_gl isEqualTo []) then {
+/*if (_type_gl isEqualTo []) then {
     _type_gl = ["O_GMG_01_F", "O_GMG_01_high_F"];
-};
+};*/
 
 //Final filter unwanted units type
 if !(_en_AA) then {
