@@ -94,8 +94,8 @@ private _composition_objects = [_pos, selectRandom [0, 90, 180, 270], _compositi
 
 private _mines = [];
 for "_i" from 1 to (5 + round random 5) do {
-    private _type = "ATMine";
-    if (random 1 > 0.6) then {_type = selectRandom btc_type_mines;};
+    private _type = "uns_mine_tm57";
+    if (random 1 > 0.4) then {_type = selectRandom btc_type_mines;};
     private _m_pos = [_pos, _area_size - 10] call btc_fnc_randomize_pos;
     _mines pushBack createMine [_type, _m_pos, [], 0];
 
@@ -117,7 +117,7 @@ for "_i" from 1 to (round random 2) do {
     [btc_mil_fnc_send, [_closest, _pos, 1, selectRandom btc_type_motorized]] call CBA_fnc_directCall;
 };
 
-waitUntil {sleep 5; 
+waitUntil {sleep 5;
     _taskID call BIS_fnc_taskCompleted ||
     _mines select {!isNull _x} isEqualTo []
 };
