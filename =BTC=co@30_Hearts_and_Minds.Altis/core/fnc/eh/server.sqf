@@ -47,7 +47,7 @@ addMissionEventHandler ["BuildingChanged", btc_rep_fnc_buildingchanged];
     params ["", "_player"];
     [btc_rep_malus_player_respawn, _player] call btc_rep_fnc_change;
     btc_slots_serialized set [
-        _player getVariable ["btc_slot_key", [0, 0, 0]],
+        _player getVariable ["btc_slot_key", ""],
         [] // Reset serialized data if slot died
     ];
 }] call CBA_fnc_addEventHandler;

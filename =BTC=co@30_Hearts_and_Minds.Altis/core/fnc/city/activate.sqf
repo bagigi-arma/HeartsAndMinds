@@ -235,7 +235,7 @@ if (_has_ho && {!(_city getVariable ["ho_units_spawned", false])}) then {
             [[(_pos select 0) + 7, (_pos select 1) + 7, 0], _statics, 45, [], _city] call btc_mil_fnc_create_static;
         };
         case (_random > 0.75) : {
-            private _statics = btc_type_gl + btc_type_mg;
+            private _statics = btc_type_gl + btc_type_mg + btc_type_mortar;
             [[(_pos select 0) + 7, (_pos select 1) + 7, 0], _statics, 45, [], _city] call btc_mil_fnc_create_static;
             [[(_pos select 0) - 7, (_pos select 1) - 7, 0], _statics, 225, [], _city] call btc_mil_fnc_create_static;
         };

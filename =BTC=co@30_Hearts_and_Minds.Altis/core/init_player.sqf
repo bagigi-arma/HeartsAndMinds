@@ -62,3 +62,52 @@ btc_intro_done = [] spawn btc_respawn_fnc_intro;
         }] call CBA_fnc_waitUntilAndExecute;
     };
 }] call CBA_fnc_waitUntilAndExecute;
+
+// ------------ Custom Player Init ------------
+
+// Respawn on carrier properly
+player addMPEventHandler ["MPRespawn", {
+    private _pos = getPosASL player;
+    if (_pos distance2D btc_gear_object < 20) then {
+        _pos set [2, 17.5]; // LHD Atlas main deck height
+        [{player setPosASL (_this select 0);}, [_pos]] call CBA_fnc_execNextFrame;
+    };
+}];
+
+// 3D Icons on cheaters and important resource boxes
+addMissionEventHandler ["Draw3D", {
+    // Mark players who took a GPS
+    if ((isPlayer cursorObject) && {"ItemGPS" in (assignedItems cursorObject)}) then {
+        drawIcon3D ["a3\ui_f_enoch\data\common\rschorizontalcompass\compass_hq_ca.paa", [1,0,0,1], (ASLToAGL eyePos cursorObject) vectorAdd [0, 0, 0.2], 1, 1, 0, "Ho preso un GPS perché non so navigare", 0, 0.05, "PuristaMedium", "center"];
+    };
+
+    // Return early if far from all important objects (>30m)
+    if (player distanceSqr btc_gear_object > 400) exitWith {};
+
+    {
+        _x params ["_objName", "_drawnText", "_zOffset"];
+
+        if (player distanceSqr _objName < 100) then {
+            drawIcon3D ["a3\ui_f_enoch\data\common\rschorizontalcompass\compass_hq_ca.paa", [1,1,1,1], (ASLToAGL getPosASL _objName) vectorAdd [0, 0, _zOffset], 1, 1, 0, _drawnText, 0, 0.05, "PuristaMedium", "center"];
+        };
+    } forEach [
+        // [objName, drawnText, zOffset]
+        [btc_gear_object, "Loadout Default/Predefiniti + Abilità", 2]
+    ];
+}];
+
+// Add nearby heal interaction on main Arsenal
+btc_gear_object addAction ["<t color='#ff85ef'>Heal All within 50m</t>", "heal_nearby.sqf", [], 1];
+
+// Add trait switching interactions to main Arsenal
+private _action = ["traitBase", "Cambia abilità", "", {true}, {true}] call ace_interact_menu_fnc_createAction;
+private _baseAction = [btc_gear_object, 0, ["ACE_MainActions"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+_action = ["traitMed", "Soccorritore", "", {"med" call rusher_setRoles}, {true}] call ace_interact_menu_fnc_createAction;
+[btc_gear_object, 0, _baseAction, _action] call ace_interact_menu_fnc_addActionToObject;
+_action = ["traitDoc", "Medico", "", {"doc" call rusher_setRoles}, {true}] call ace_interact_menu_fnc_createAction;
+[btc_gear_object, 0, _baseAction, _action] call ace_interact_menu_fnc_addActionToObject;
+_action = ["traitEng", "Geniere+EOD", "", {"eng" call rusher_setRoles}, {true}] call ace_interact_menu_fnc_createAction;
+[btc_gear_object, 0, _baseAction, _action] call ace_interact_menu_fnc_addActionToObject;
+_action = ["traitTran", "Traduttore", "", {"tran" call rusher_setRoles}, {true}] call ace_interact_menu_fnc_createAction;
+[btc_gear_object, 0, _baseAction, _action] call ace_interact_menu_fnc_addActionToObject;
