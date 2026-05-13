@@ -28,9 +28,23 @@ class RscTitles {
 #include "core\fnc\task\taskTypes.hpp"
 
 class CfgFunctions {
-    // add your own functions below
+	class TRN {
+		class loadouts {
+			file = "functions\loadouts";
+			class initLoadouts { postInit = 1; };
+			class addLoadoutActions {};
+			class setSkills {};
+		};
+		class medical {
+			file = "functions\medical";
+			class addHealActions {};
+			class addSpawnPatientActions {};
+			class clearPad {};
+			class healAllNearby {};
+			class spawnPatient {};
+		};
+	};
 };
-
 // CBA XEH
 class Extended_PreInit_EventHandlers {
     #include "core\fnc\eh\xeh_PreInit_EH.hpp"
