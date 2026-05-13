@@ -28,9 +28,9 @@ params [
 
 private _color = [1, 0.5, 0,1];
 
-private _gear_object_pos = getPos _gear_object;
+private _gear_object_pos = getPosASL _gear_object;
 _gear_object_pos params ["_gear_object_pos_x", "_gear_object_pos_y", "_gear_object_pos_z"];
-private _create_object_pos = getPos _create_object;
+private _create_object_pos = getPosASL _create_object;
 _create_object_pos params ["_create_object_pos_x", "_create_object_pos_y", "_create_object_pos_z"];
 
 private _array = [
@@ -52,7 +52,7 @@ private _days = (_date vectorDiff _startingDate) vectorDotProduct [365, 30.5, 1]
 [
     getMarkerPos "btc_base",
     format [localize "STR_BTC_HAM_INTRO_LOADINGTXT", round _days],
-    20, 30, 240, 0, _array, 0
+    40, 100, 30, 310, _array, 0
 ] call BIS_fnc_establishingShot;
 
 enableSaving [false, false];

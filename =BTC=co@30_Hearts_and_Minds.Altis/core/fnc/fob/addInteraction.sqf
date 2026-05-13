@@ -56,7 +56,9 @@ if (_isFull) then {
 };
 _actions pushBack ["base", localize "STR_BTC_HAM_ACTION_REDEPLOYBASE", getText (configfile >> "CfgMarkers" >> getMarkerType "btc_base" >> "icon"), {
     if ([] call btc_fob_fnc_redeployCheck) then {
-        [_player, btc_respawn_marker, false] call BIS_fnc_moveToRespawnPosition
+        private _pos = getMarkerPos btc_respawn_marker;
+        _pos set [2, 17];
+        player setPosASL _pos;
     };
 }, _condition, btc_fob_fnc_redeploy, "Base"];
 

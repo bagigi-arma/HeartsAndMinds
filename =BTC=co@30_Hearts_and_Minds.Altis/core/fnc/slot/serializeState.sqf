@@ -25,7 +25,8 @@ params [
 ];
 
 if (
-    isNil {_unit getVariable "btc_slot_key"}
+    isNil {_unit getVariable "btc_slot_key"} || 
+    {!btc_p_slot_isSaved}
 ) exitWith {};
 
 private _loadout = [_unit] call CBA_fnc_getLoadout;
@@ -50,4 +51,4 @@ if (btc_debug || btc_debug_log) then {
     [format ["%1", _data], __FILE__, [false, btc_debug_log, false]] call btc_debug_fnc_message;
 };
 
-btc_slots_serialized set [_unit getVariable ["btc_slot_key", [0, 0, 0]], _data];
+btc_slots_serialized set [_unit getVariable ["btc_slot_key", ""], _data];
