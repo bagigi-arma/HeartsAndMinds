@@ -12,7 +12,7 @@ if (CBA_missionTime < _nextUpdateTime) exitWith {_cachedReturn};
 // Check for radios on the player that can be used to contact the mobile support
 private _connEstablished = false;
 private _playerRadios = ([] call acre_sys_data_fnc_getPlayerRadioList) select {
-	(toLower ([_x] call acre_sys_radio_fnc_getRadioBaseClassname)) in ["acre_sem52sl", "acre_sem70"]
+	(toLower ([_x] call acre_sys_radio_fnc_getRadioBaseClassname)) in ["acre_prc148", "acre_prc152", "acre_prc117f"]
 };
 
 if (_playerRadios isNotEqualTo []) then {
@@ -20,7 +20,7 @@ if (_playerRadios isNotEqualTo []) then {
 	private _txAntenna = ([_radioId] call acre_sys_components_fnc_findAntenna) select 0;
 
 	if (
-		(_player distance2D _vehicle) < 1500 || 
+		(_player distance2D _vehicle) < 500 || 
 		{!(terrainIntersectASL [_txAntenna#2, getPosASL _vehicle])}
 	) then {
 		_connEstablished = true;
