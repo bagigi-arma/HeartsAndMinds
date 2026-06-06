@@ -43,6 +43,12 @@ class CfgFunctions {
 			class healAllNearby {};
 			class spawnPatient {};
 		};
+		class teleport {
+			file = "functions\teleport";
+			class initTeleporter { postInit = 1; };
+			class addTeleportActions {};
+			class teleportChildrenActions {};
+		};
 	};
 };
 // CBA XEH

@@ -47,7 +47,7 @@ private _loadouts = [
 		"Schwarze - fanteria", [
 			["Truppenführer", [], []],
 			["Funker", [], []],
-			["Schütze", [], []],
+			["Schütze G36", [], []],
 			["Oberschütze", [], []],
 			["Panzerfaustschütze", [], []],
 			["Scharfschütze", [], []],

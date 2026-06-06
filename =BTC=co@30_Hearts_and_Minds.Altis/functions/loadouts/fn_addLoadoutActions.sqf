@@ -17,7 +17,7 @@ private _name = "Loadout";
 private _condition = {true};
 if (_object isKindOf "CAManBase") then {
 	_name = "Assegna Loadout";
-	_condition = {TRN_playerIsInstructor};
+	_condition = {call BIS_fnc_admin == 2};
 };
 
 private _action = ["loadoutRoot", _name, "data\bagigi.paa", {}, _condition] call ace_interact_menu_fnc_createAction;
