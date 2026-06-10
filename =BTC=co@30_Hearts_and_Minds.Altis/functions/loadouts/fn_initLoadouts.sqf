@@ -24,30 +24,31 @@ private _loadoutsHashMap = createHashMap;
 // Manual allocation of loadout categories and skills, in the format: ["category", ["name", loadout, skills]]
 private _loadouts = [
 	[
-		"Cani e ritardatari", [
-			["Wehrpflichtiger", [], []]
+		"Kommando Spezialkräfte Marine", [
+			["(KSM) Gruppenführer", [], []],
+			["(KSM) Truppenführer", [], []],
+			["(KSM) Recondrohnenbediener", [], []],
+			["(KSM) Scharfschütze", [], []],
+			["(KSM) Leichtermaschinengewehrschütze", [], []],
+			["(KSM) Obersanitätsoffizier HK33", [], ["doc"]],
+			["(KSM) Obersanitätsoffizier MP5", [], ["doc"]],
+			["(KSM) Pioner HK33", [], ["eod", "eng"]],
+			["(KSM) Pioner MP5", [], ["eod", "eng"]],
+			["(KSM) Panzerfaustschütze", [], []],
+			["(KSM) Schütze", [], []]
 		]
 	],
 	[
-		"Platoon e Company Lead", [
+		"Bundeswehr", [
 			["Kompanieführer", [], []],
 			["Zugführer", [], []],
 			["JTAC", [], []],
-			["Zugsanitätsoffizier", [], ["doc"]]
-		]
-	],
-	[
-		"Schwarze Squad Lead", [
+			["Zugsanitätsoffizier", [], ["doc"]],
 			["Gruppenführer", [], []],
 			["Drohnenbediener", [], []],
-			["Sanitätsoffizier", [], ["doc"]]
-		]
-	],
-	[
-		"Schwarze - fanteria", [
+			["Sanitätsoffizier", [], ["doc"]],
 			["Truppenführer", [], []],
 			["Funker", [], []],
-			["Schütze G36", [], []],
 			["Oberschütze", [], []],
 			["Panzerfaustschütze", [], []],
 			["Scharfschütze", [], []],
@@ -57,17 +58,20 @@ private _loadouts = [
 			["Maschinengewehrschützehalfe", [], []],
 			["Pioner", [], ["eod", "eng"]],
 			["Granatschütze", [], []],
-			["Krankenträger", [], ["med"]]
+			["Krankenträger", [], ["med"]],
+			["Schütze G3", [], []],
+			["Schütze G36", [], []],
+			["Wehrpflichtiger", [], []]
 		]
 	],
 	[
-		"Schwarze - veicolo", [
+		"Crew - veicolo", [
 			["Panzerkommandant", [], ["eng"]],
 			["Besatzungsmitglied", [], ["eng"]]
 		]
 	],
 	[
-		"Sturm - velivolo", [
+		"Crew - velivolo", [
 			["Hubschrauberpilot", [], ["eng"]]
 		]
 	]
