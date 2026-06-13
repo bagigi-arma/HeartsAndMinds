@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=4153;
+		nextID=4155;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1182;
+		nextID=1226;
 	};
 	class Camera
 	{
-		pos[]={897.77856,23.585623,1565.6859};
-		dir[]={-0.18847273,-0.20281625,0.9609077};
-		up[]={-0.039036639,0.97921681,0.19902405};
-		aside[]={0.98130232,0,0.19247293};
+		pos[]={951.53528,32.645786,1655.6738};
+		dir[]={-0.85760802,-0.43761587,-0.2702069};
+		up[]={-0.41750607,0.89910054,-0.13154399};
+		aside[]={-0.30050999,1.2933015e-07,0.9537853};
 	};
 };
 binarizationWanted=0;
@@ -1948,7 +1948,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=2;
+																					items=4;
 																					class Item0
 																					{
 																						class data
@@ -1990,6 +1990,60 @@ class CustomAttributes
 																									{
 																										singleType="STRING";
 																										value="ACE_EHP";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item2
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item3
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
 																									};
 																								};
 																								class Item1
@@ -3322,7 +3376,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=3;
+																					items=5;
 																					class Item0
 																					{
 																						class data
@@ -3391,6 +3445,60 @@ class CustomAttributes
 																									{
 																										singleType="STRING";
 																										value="BWA3_optic_NSA80";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item3
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item4
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
 																									};
 																								};
 																								class Item1
@@ -4645,7 +4753,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=5;
+																					items=7;
 																					class Item0
 																					{
 																						class data
@@ -4734,6 +4842,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item4
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item5
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -4762,7 +4924,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item4
+																					class Item6
 																					{
 																						class data
 																						{
@@ -5995,7 +6157,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=29;
+																					items=31;
 																					class Item0
 																					{
 																						class data
@@ -6732,6 +6894,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item28
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item29
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -6760,7 +6976,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item28
+																					class Item30
 																					{
 																						class data
 																						{
@@ -8036,7 +8252,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=3;
+																					items=5;
 																					class Item0
 																					{
 																						class data
@@ -8092,6 +8308,60 @@ class CustomAttributes
 																						};
 																					};
 																					class Item2
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item3
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item4
 																					{
 																						class data
 																						{
@@ -9445,7 +9715,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=5;
+																					items=7;
 																					class Item0
 																					{
 																						class data
@@ -9507,6 +9777,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item3
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item4
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -9535,7 +9859,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item3
+																					class Item5
 																					{
 																						class data
 																						{
@@ -9570,7 +9894,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item4
+																					class Item6
 																					{
 																						class data
 																						{
@@ -10900,8 +11224,62 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=3;
+																					items=5;
 																					class Item0
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item1
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item2
 																					{
 																						class data
 																						{
@@ -10936,7 +11314,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item1
+																					class Item3
 																					{
 																						class data
 																						{
@@ -10971,7 +11349,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item2
+																					class Item4
 																					{
 																						class data
 																						{
@@ -11926,7 +12304,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=12;
+																					items=13;
 																					class Item0
 																					{
 																						class data
@@ -12069,6 +12447,33 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item6
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -12097,7 +12502,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item6
+																					class Item7
 																					{
 																						class data
 																						{
@@ -12132,7 +12537,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item8
 																					{
 																						class data
 																						{
@@ -12167,7 +12572,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item9
 																					{
 																						class data
 																						{
@@ -12202,7 +12607,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item9
+																					class Item10
 																					{
 																						class data
 																						{
@@ -12223,7 +12628,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="SCALAR";
-																										value=3;
+																										value=1;
 																									};
 																								};
 																								class Item2
@@ -12237,7 +12642,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item10
+																					class Item11
 																					{
 																						class data
 																						{
@@ -12272,7 +12677,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item11
+																					class Item12
 																					{
 																						class data
 																						{
@@ -12336,7 +12741,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=30;
+																					items=31;
 																					class Item0
 																					{
 																						class data
@@ -12358,7 +12763,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="SCALAR";
-																										value=25;
+																										value=20;
 																									};
 																								};
 																							};
@@ -12385,7 +12790,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="SCALAR";
-																										value=15;
+																										value=10;
 																									};
 																								};
 																							};
@@ -12520,7 +12925,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="SCALAR";
-																										value=15;
+																										value=10;
 																									};
 																								};
 																							};
@@ -13121,6 +13526,33 @@ class CustomAttributes
 																						};
 																					};
 																					class Item29
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item30
 																					{
 																						class data
 																						{
@@ -14137,7 +14569,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=8;
+																					items=10;
 																					class Item0
 																					{
 																						class data
@@ -14226,6 +14658,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item4
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item5
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -14254,7 +14740,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item4
+																					class Item6
 																					{
 																						class data
 																						{
@@ -14289,7 +14775,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item5
+																					class Item7
 																					{
 																						class data
 																						{
@@ -14324,7 +14810,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item6
+																					class Item8
 																					{
 																						class data
 																						{
@@ -14345,7 +14831,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="SCALAR";
-																										value=2;
+																										value=1;
 																									};
 																								};
 																								class Item2
@@ -14359,7 +14845,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item9
 																					{
 																						class data
 																						{
@@ -14380,7 +14866,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="SCALAR";
-																										value=6;
+																										value=5;
 																									};
 																								};
 																								class Item2
@@ -15681,7 +16167,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=12;
+																					items=14;
 																					class Item0
 																					{
 																						class data
@@ -15743,6 +16229,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item3
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item4
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -15771,7 +16311,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item3
+																					class Item5
 																					{
 																						class data
 																						{
@@ -15806,7 +16346,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item4
+																					class Item6
 																					{
 																						class data
 																						{
@@ -15841,7 +16381,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item5
+																					class Item7
 																					{
 																						class data
 																						{
@@ -15876,7 +16416,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item6
+																					class Item8
 																					{
 																						class data
 																						{
@@ -15911,7 +16451,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item9
 																					{
 																						class data
 																						{
@@ -15946,7 +16486,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item10
 																					{
 																						class data
 																						{
@@ -15981,7 +16521,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item9
+																					class Item11
 																					{
 																						class data
 																						{
@@ -16016,7 +16556,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item10
+																					class Item12
 																					{
 																						class data
 																						{
@@ -16051,7 +16591,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item11
+																					class Item13
 																					{
 																						class data
 																						{
@@ -17408,7 +17948,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=2;
+																					items=4;
 																					class Item0
 																					{
 																						class data
@@ -17458,6 +17998,60 @@ class CustomAttributes
 																									{
 																										singleType="SCALAR";
 																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item2
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item3
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
 																									};
 																								};
 																							};
@@ -18766,7 +19360,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=2;
+																					items=4;
 																					class Item0
 																					{
 																						class data
@@ -18808,6 +19402,60 @@ class CustomAttributes
 																									{
 																										singleType="STRING";
 																										value="ACRE_RF3080";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item2
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item3
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
 																									};
 																								};
 																								class Item1
@@ -20082,7 +20730,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=13;
+																					items=15;
 																					class Item0
 																					{
 																						class data
@@ -20171,6 +20819,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item4
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item5
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -20199,7 +20901,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item4
+																					class Item6
 																					{
 																						class data
 																						{
@@ -20234,7 +20936,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item5
+																					class Item7
 																					{
 																						class data
 																						{
@@ -20269,7 +20971,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item6
+																					class Item8
 																					{
 																						class data
 																						{
@@ -20304,7 +21006,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item9
 																					{
 																						class data
 																						{
@@ -20339,7 +21041,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item10
 																					{
 																						class data
 																						{
@@ -20374,7 +21076,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item9
+																					class Item11
 																					{
 																						class data
 																						{
@@ -20409,7 +21111,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item10
+																					class Item12
 																					{
 																						class data
 																						{
@@ -20444,7 +21146,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item11
+																					class Item13
 																					{
 																						class data
 																						{
@@ -20479,7 +21181,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item12
+																					class Item14
 																					{
 																						class data
 																						{
@@ -21755,7 +22457,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=6;
+																					items=7;
 																					class Item0
 																					{
 																						class data
@@ -21871,13 +22573,13 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
-																								items=3;
+																								items=2;
 																								class Item0
 																								{
 																									class data
 																									{
 																										singleType="STRING";
-																										value="GX_1RND_DRONE40_SMOKE_WHITE_M203";
+																										value="ACE_Canteen";
 																									};
 																								};
 																								class Item1
@@ -21885,15 +22587,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="SCALAR";
-																										value=1;
-																									};
-																								};
-																								class Item2
-																								{
-																									class data
-																									{
-																										singleType="SCALAR";
-																										value=100;
+																										value=2;
 																									};
 																								};
 																							};
@@ -21906,13 +22600,40 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item6
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
 																									class data
 																									{
 																										singleType="STRING";
-																										value="GX_1RND_DRONE40_SMOKE_RED_M203";
+																										value="GX_1RND_DRONE40_RECON_M203";
 																									};
 																								};
 																								class Item1
@@ -23237,7 +23958,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=3;
+																					items=5;
 																					class Item0
 																					{
 																						class data
@@ -23314,6 +24035,60 @@ class CustomAttributes
 																									{
 																										singleType="SCALAR";
 																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item3
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item4
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
 																									};
 																								};
 																							};
@@ -24580,7 +25355,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=33;
+																					items=35;
 																					class Item0
 																					{
 																						class data
@@ -24602,7 +25377,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="SCALAR";
-																										value=24;
+																										value=20;
 																									};
 																								};
 																							};
@@ -24629,7 +25404,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="SCALAR";
-																										value=12;
+																										value=10;
 																									};
 																								};
 																							};
@@ -24737,7 +25512,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="SCALAR";
-																										value=12;
+																										value=10;
 																									};
 																								};
 																							};
@@ -25169,7 +25944,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="SCALAR";
-																										value=2;
+																										value=1;
 																									};
 																								};
 																							};
@@ -25446,6 +26221,60 @@ class CustomAttributes
 																						};
 																					};
 																					class Item32
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item33
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item34
 																					{
 																						class data
 																						{
@@ -26345,7 +27174,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=10;
+																					items=12;
 																					class Item0
 																					{
 																						class data
@@ -26488,6 +27317,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item6
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item7
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -26516,7 +27399,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item6
+																					class Item8
 																					{
 																						class data
 																						{
@@ -26537,7 +27420,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="SCALAR";
-																										value=4;
+																										value=3;
 																									};
 																								};
 																								class Item2
@@ -26551,7 +27434,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item9
 																					{
 																						class data
 																						{
@@ -26586,7 +27469,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item10
 																					{
 																						class data
 																						{
@@ -26621,7 +27504,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item9
+																					class Item11
 																					{
 																						class data
 																						{
@@ -26685,7 +27568,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=5;
+																					items=6;
 																					class Item0
 																					{
 																						class data
@@ -26693,24 +27576,16 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
-																								items=3;
+																								items=2;
 																								class Item0
 																								{
 																									class data
 																									{
 																										singleType="STRING";
-																										value="ClaymoreDirectionalMine_Remote_Mag";
+																										value="ToolKit";
 																									};
 																								};
 																								class Item1
-																								{
-																									class data
-																									{
-																										singleType="SCALAR";
-																										value=2;
-																									};
-																								};
-																								class Item2
 																								{
 																									class data
 																									{
@@ -26734,7 +27609,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="STRING";
-																										value="DemoCharge_Remote_Mag";
+																										value="ClaymoreDirectionalMine_Remote_Mag";
 																									};
 																								};
 																								class Item1
@@ -26742,7 +27617,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="SCALAR";
-																										value=5;
+																										value=1;
 																									};
 																								};
 																								class Item2
@@ -26757,6 +27632,41 @@ class CustomAttributes
 																						};
 																					};
 																					class Item2
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=3;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="DemoCharge_Remote_Mag";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																								class Item2
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item3
 																					{
 																						class data
 																						{
@@ -26791,7 +27701,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item3
+																					class Item4
 																					{
 																						class data
 																						{
@@ -26826,7 +27736,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item4
+																					class Item5
 																					{
 																						class data
 																						{
@@ -28102,7 +29012,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=4;
+																					items=6;
 																					class Item0
 																					{
 																						class data
@@ -28206,6 +29116,60 @@ class CustomAttributes
 																									{
 																										singleType="SCALAR";
 																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item4
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item5
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
 																									};
 																								};
 																							};
@@ -29464,7 +30428,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=1;
+																					items=3;
 																					class Item0
 																					{
 																						class data
@@ -29487,6 +30451,60 @@ class CustomAttributes
 																									{
 																										singleType="SCALAR";
 																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item1
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item2
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
 																									};
 																								};
 																							};
@@ -30609,7 +31627,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=1;
+																					items=3;
 																					class Item0
 																					{
 																						class data
@@ -30624,6 +31642,60 @@ class CustomAttributes
 																									{
 																										singleType="STRING";
 																										value="ToolKit";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item1
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item2
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
 																									};
 																								};
 																								class Item1
@@ -31382,8 +32454,62 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=7;
+																					items=9;
 																					class Item0
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item1
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item2
 																					{
 																						class data
 																						{
@@ -31418,7 +32544,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item1
+																					class Item3
 																					{
 																						class data
 																						{
@@ -31453,7 +32579,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item2
+																					class Item4
 																					{
 																						class data
 																						{
@@ -31488,7 +32614,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item3
+																					class Item5
 																					{
 																						class data
 																						{
@@ -31523,7 +32649,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item4
+																					class Item6
 																					{
 																						class data
 																						{
@@ -31558,7 +32684,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item5
+																					class Item7
 																					{
 																						class data
 																						{
@@ -31593,7 +32719,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item6
+																					class Item8
 																					{
 																						class data
 																						{
@@ -32899,7 +34025,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=4;
+																					items=6;
 																					class Item0
 																					{
 																						class data
@@ -32934,6 +34060,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item2
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item3
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -32962,7 +34142,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item2
+																					class Item4
 																					{
 																						class data
 																						{
@@ -32997,7 +34177,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item3
+																					class Item5
 																					{
 																						class data
 																						{
@@ -34335,7 +35515,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=1;
+																					items=3;
 																					class Item0
 																					{
 																						class data
@@ -34350,6 +35530,60 @@ class CustomAttributes
 																									{
 																										singleType="STRING";
 																										value="ACRE_PRC117F";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item1
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item2
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
 																									};
 																								};
 																								class Item1
@@ -35698,8 +36932,62 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=6;
+																					items=8;
 																					class Item0
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item1
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item2
 																					{
 																						class data
 																						{
@@ -35734,7 +37022,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item1
+																					class Item3
 																					{
 																						class data
 																						{
@@ -35755,7 +37043,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="SCALAR";
-																										value=10;
+																										value=8;
 																									};
 																								};
 																								class Item2
@@ -35769,7 +37057,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item2
+																					class Item4
 																					{
 																						class data
 																						{
@@ -35790,7 +37078,7 @@ class CustomAttributes
 																									class data
 																									{
 																										singleType="SCALAR";
-																										value=5;
+																										value=4;
 																									};
 																								};
 																								class Item2
@@ -35804,7 +37092,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item3
+																					class Item5
 																					{
 																						class data
 																						{
@@ -35839,7 +37127,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item4
+																					class Item6
 																					{
 																						class data
 																						{
@@ -35874,7 +37162,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item5
+																					class Item7
 																					{
 																						class data
 																						{
@@ -37150,7 +38438,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=3;
+																					items=5;
 																					class Item0
 																					{
 																						class data
@@ -37206,6 +38494,60 @@ class CustomAttributes
 																						};
 																					};
 																					class Item2
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item3
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item4
 																					{
 																						class data
 																						{
@@ -38446,7 +39788,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=9;
+																					items=11;
 																					class Item0
 																					{
 																						class data
@@ -38562,6 +39904,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item5
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item6
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -38590,7 +39986,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item5
+																					class Item7
 																					{
 																						class data
 																						{
@@ -38625,7 +40021,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item6
+																					class Item8
 																					{
 																						class data
 																						{
@@ -38660,7 +40056,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item9
 																					{
 																						class data
 																						{
@@ -38695,7 +40091,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item10
 																					{
 																						class data
 																						{
@@ -39936,7 +41332,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=10;
+																					items=12;
 																					class Item0
 																					{
 																						class data
@@ -40052,6 +41448,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item5
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item6
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -40080,7 +41530,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item5
+																					class Item7
 																					{
 																						class data
 																						{
@@ -40115,7 +41565,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item6
+																					class Item8
 																					{
 																						class data
 																						{
@@ -40150,7 +41600,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item9
 																					{
 																						class data
 																						{
@@ -40185,7 +41635,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item10
 																					{
 																						class data
 																						{
@@ -40220,7 +41670,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item9
+																					class Item11
 																					{
 																						class data
 																						{
@@ -41481,7 +42931,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=39;
+																					items=41;
 																					class Item0
 																					{
 																						class data
@@ -42407,6 +43857,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item35
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item36
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -42435,7 +43939,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item35
+																					class Item37
 																					{
 																						class data
 																						{
@@ -42470,7 +43974,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item36
+																					class Item38
 																					{
 																						class data
 																						{
@@ -42505,7 +44009,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item37
+																					class Item39
 																					{
 																						class data
 																						{
@@ -42540,7 +44044,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item38
+																					class Item40
 																					{
 																						class data
 																						{
@@ -43781,7 +45285,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=39;
+																					items=41;
 																					class Item0
 																					{
 																						class data
@@ -44707,6 +46211,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item35
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item36
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -44735,7 +46293,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item35
+																					class Item37
 																					{
 																						class data
 																						{
@@ -44770,7 +46328,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item36
+																					class Item38
 																					{
 																						class data
 																						{
@@ -44805,7 +46363,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item37
+																					class Item39
 																					{
 																						class data
 																						{
@@ -44840,7 +46398,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item38
+																					class Item40
 																					{
 																						class data
 																						{
@@ -46162,7 +47720,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=9;
+																					items=11;
 																					class Item0
 																					{
 																						class data
@@ -46278,6 +47836,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item5
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item6
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -46306,7 +47918,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item5
+																					class Item7
 																					{
 																						class data
 																						{
@@ -46341,7 +47953,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item6
+																					class Item8
 																					{
 																						class data
 																						{
@@ -46376,7 +47988,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item9
 																					{
 																						class data
 																						{
@@ -46411,7 +48023,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item10
 																					{
 																						class data
 																						{
@@ -48034,7 +49646,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=9;
+																					items=11;
 																					class Item0
 																					{
 																						class data
@@ -48123,6 +49735,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item4
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item5
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -48151,7 +49817,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item4
+																					class Item6
 																					{
 																						class data
 																						{
@@ -48186,7 +49852,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item5
+																					class Item7
 																					{
 																						class data
 																						{
@@ -48221,7 +49887,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item6
+																					class Item8
 																					{
 																						class data
 																						{
@@ -48256,7 +49922,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item9
 																					{
 																						class data
 																						{
@@ -48291,7 +49957,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item10
 																					{
 																						class data
 																						{
@@ -49585,7 +51251,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=11;
+																					items=13;
 																					class Item0
 																					{
 																						class data
@@ -49701,6 +51367,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item5
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item6
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -49729,7 +51449,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item5
+																					class Item7
 																					{
 																						class data
 																						{
@@ -49764,7 +51484,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item6
+																					class Item8
 																					{
 																						class data
 																						{
@@ -49799,7 +51519,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item9
 																					{
 																						class data
 																						{
@@ -49834,7 +51554,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item10
 																					{
 																						class data
 																						{
@@ -49869,7 +51589,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item9
+																					class Item11
 																					{
 																						class data
 																						{
@@ -49904,7 +51624,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item10
+																					class Item12
 																					{
 																						class data
 																						{
@@ -51198,7 +52918,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=11;
+																					items=13;
 																					class Item0
 																					{
 																						class data
@@ -51314,6 +53034,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item5
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item6
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -51342,7 +53116,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item5
+																					class Item7
 																					{
 																						class data
 																						{
@@ -51377,7 +53151,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item6
+																					class Item8
 																					{
 																						class data
 																						{
@@ -51412,7 +53186,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item9
 																					{
 																						class data
 																						{
@@ -51447,7 +53221,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item10
 																					{
 																						class data
 																						{
@@ -51482,7 +53256,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item9
+																					class Item11
 																					{
 																						class data
 																						{
@@ -51517,7 +53291,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item10
+																					class Item12
 																					{
 																						class data
 																						{
@@ -53120,7 +54894,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=9;
+																					items=11;
 																					class Item0
 																					{
 																						class data
@@ -53263,6 +55037,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item6
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item7
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -53291,7 +55119,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item6
+																					class Item8
 																					{
 																						class data
 																						{
@@ -53326,7 +55154,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item9
 																					{
 																						class data
 																						{
@@ -53361,7 +55189,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item10
 																					{
 																						class data
 																						{
@@ -54637,7 +56465,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=11;
+																					items=13;
 																					class Item0
 																					{
 																						class data
@@ -54780,6 +56608,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item6
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item7
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -54808,7 +56690,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item6
+																					class Item8
 																					{
 																						class data
 																						{
@@ -54843,7 +56725,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item9
 																					{
 																						class data
 																						{
@@ -54878,7 +56760,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item10
 																					{
 																						class data
 																						{
@@ -54913,7 +56795,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item9
+																					class Item11
 																					{
 																						class data
 																						{
@@ -54948,7 +56830,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item10
+																					class Item12
 																					{
 																						class data
 																						{
@@ -56267,7 +58149,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=9;
+																					items=11;
 																					class Item0
 																					{
 																						class data
@@ -56383,6 +58265,60 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_MRE_BeefStew";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item5
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_Canteen";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=2;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item6
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -56411,7 +58347,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item5
+																					class Item7
 																					{
 																						class data
 																						{
@@ -56446,7 +58382,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item6
+																					class Item8
 																					{
 																						class data
 																						{
@@ -56481,7 +58417,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item9
 																					{
 																						class data
 																						{
@@ -56516,7 +58452,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item10
 																					{
 																						class data
 																						{
@@ -60563,7 +62499,7 @@ class Mission
 															};
 															id=2468;
 															type="Land_Pliers_F";
-															atlOffset=0.89606309;
+															atlOffset=0.89605927;
 															class CustomAttributes
 															{
 																class Attribute0
@@ -109366,7 +111302,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1]],[[],[]]],false]";
+									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -109466,7 +111402,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1]],[[],[]]],false]";
+									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -109566,7 +111502,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1]],[[],[]]],false]";
+									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -109666,7 +111602,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1]],[[],[]]],false]";
+									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -109766,7 +111702,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1]],[[],[]]],false]";
+									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -109865,7 +111801,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1]],[[],[]]],false]";
+									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -109964,7 +111900,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1]],[[],[]]],false]";
+									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -110063,7 +111999,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1]],[[],[]]],false]";
+									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -110162,7 +112098,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1]],[[],[]]],false]";
+									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -110261,7 +112197,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1]],[[],[]]],false]";
+									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -110361,7 +112297,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1]],[[],[]]],false]";
+									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -110461,7 +112397,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1]],[[],[]]],false]";
+									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -110599,7 +112535,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -110723,7 +112659,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -110848,7 +112784,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -110973,7 +112909,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -111097,7 +113033,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -111221,7 +113157,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -111345,7 +113281,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -111469,7 +113405,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -111593,7 +113529,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""rhs_mag_m67"",""ACE_40mm_Pike"",""DemoCharge_Remote_Mag""],[2,2,1,1]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_quikclot"",""ACE_epinephrine"",""kat_suction"",""kat_chestSeal"",""ACE_morphine"",""ACE_plasmaIV"",""kat_IV_16"",""kat_naloxone"",""kat_aatKit"",""rhsusf_acc_nt4_black"",""rhsusf_acc_aac_762sd_silencer"",""ACE_DBAL_A3_Red"",""ACE_wirecutter"",""ACE_MapTools"",""ACE_PlottingBoard"",""ACE_EntrenchingTool"",""ACE_artilleryTable"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_M26_Clacker"",""ACE_EarPlugs"",""ACE_EHP"",""ACE_tourniquet"",""ACE_painkillers_Item"",""ACE_ATragMX"",""ace_intelitems_notepad_Item"",""ACE_RangeCard"",""kat_Pulseoximeter"",""ACE_Flashlight_XL50"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[5,15,1,5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,1,1,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -111631,7 +113567,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={873.2832,18.588959,1538.8737};
+						position[]={873.28345,18.58926,1538.8735};
 						angles[]={0,3.1289914,0};
 					};
 					side="Empty";
@@ -111643,7 +113579,7 @@ class Mission
 					};
 					id=2774;
 					type="BWA3_Tiger_RMK";
-					atlOffset=0.012256622;
+					atlOffset=0.012557983;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -111681,7 +113617,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1]],[[],[]]],false]";
+									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -111882,7 +113818,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1]],[[],[]]],false]";
+									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -111995,7 +113931,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1]],[[],[]]],false]";
+									value="[[[[""BWA3_PzF3_Tandem_Loaded""],[1]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67"",""1Rnd_Smoke_Grenade_shell"",""rhs_mag_M433_HEDP"",""rhs_mag_M397_HET""],[8,5,5,6,5,10,5]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[50,50,5,5,50,5,5,5,10,5,5,1,5,5,5,2,15,2,5,3,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -112338,7 +114274,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67""],[2,5,5,2]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[10,20,5,5,10,5,5,5,5,2,5,1,5,5,5,2,5,1,1,1,1,20,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67""],[2,5,5,2]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[10,20,5,5,10,5,5,5,5,2,5,1,5,5,5,2,5,1,1,1,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -112608,7 +114544,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67""],[2,5,5,2]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit""],[10,20,5,5,10,5,5,5,5,2,5,1,5,5,5,2,5,1,1,1,1,20,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67""],[2,5,5,2]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[10,20,5,5,10,5,5,5,5,2,5,1,5,5,5,2,5,1,1,1,1,20,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -112852,7 +114788,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67""],[2,5,5,2]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ACE_artilleryTable"",""ACE_RangeTable_82mm"",""ToolKit""],[10,20,5,5,10,5,5,5,5,2,5,1,5,5,5,2,5,1,1,1,1,20,5,5,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67""],[2,5,5,2]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ACE_artilleryTable"",""ACE_RangeTable_82mm"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[10,20,5,5,10,5,5,5,5,2,5,1,5,5,5,2,5,1,1,1,1,20,5,5,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -113070,7 +115006,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67""],[2,5,5,2]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ACE_artilleryTable"",""ACE_RangeTable_82mm"",""ToolKit""],[10,20,5,5,10,5,5,5,5,2,5,1,5,5,5,2,5,1,1,1,1,20,5,5,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67""],[2,5,5,2]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ACE_artilleryTable"",""ACE_RangeTable_82mm"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[10,20,5,5,10,5,5,5,5,2,5,1,5,5,5,2,5,1,1,1,1,20,5,5,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -113288,7 +115224,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67""],[2,5,5,2]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ACE_artilleryTable"",""ACE_RangeTable_82mm"",""ToolKit""],[10,20,5,5,10,5,5,5,5,2,5,1,5,5,5,2,5,1,1,1,1,20,5,5,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67""],[2,5,5,2]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ACE_artilleryTable"",""ACE_RangeTable_82mm"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[10,20,5,5,10,5,5,5,5,2,5,1,5,5,5,2,5,1,1,1,1,20,5,5,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -113506,7 +115442,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67""],[2,5,5,2]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ACE_artilleryTable"",""ACE_RangeTable_82mm"",""ToolKit""],[10,20,5,5,10,5,5,5,5,2,5,1,5,5,5,2,5,1,1,1,1,20,5,5,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67""],[2,5,5,2]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ACE_artilleryTable"",""ACE_RangeTable_82mm"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[10,20,5,5,10,5,5,5,5,2,5,1,5,5,5,2,5,1,1,1,1,20,5,5,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -113724,7 +115660,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67""],[2,5,5,2]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ACE_artilleryTable"",""ACE_RangeTable_82mm"",""ToolKit""],[10,20,5,5,10,5,5,5,5,2,5,1,5,5,5,2,5,1,1,1,1,20,5,5,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67""],[2,5,5,2]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ACE_artilleryTable"",""ACE_RangeTable_82mm"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[10,20,5,5,10,5,5,5,5,2,5,1,5,5,5,2,5,1,1,1,1,20,5,5,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -113942,7 +115878,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67""],[2,5,5,2]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ACE_artilleryTable"",""ACE_RangeTable_82mm"",""ToolKit""],[10,20,5,5,10,5,5,5,5,2,5,1,5,5,5,2,5,1,1,1,1,20,5,5,1]],[[],[]]],false]";
+									value="[[[[],[]],[[""SmokeShell"",""SmokeShellGreen"",""SmokeShellBlue"",""rhs_mag_m67""],[2,5,5,2]],[[""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_salineIV_500"",""ACE_quikclot"",""ACE_epinephrine"",""ACE_plasmaIV_500"",""kat_suction"",""kat_chestSeal"",""kat_ncdKit"",""ACE_morphine"",""ACE_plasmaIV"",""ACE_bodyBag"",""kat_larynx"",""kat_guedel"",""KAT_Empty_bloodIV_500"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_aatKit"",""kat_BVM"",""kat_gasmaskFilter"",""ACE_artilleryTable"",""ACE_RangeTable_82mm"",""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[10,20,5,5,10,5,5,5,5,2,5,1,5,5,5,2,5,1,1,1,1,20,5,5,1,15,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -114042,7 +115978,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[],[]],[[""ToolKit""],[1]],[[],[]]],false]";
+									value="[[[[],[]],[[],[]],[[""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[1,10,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -114115,7 +116051,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[],[]],[[""ToolKit""],[1]],[[],[]]],false]";
+									value="[[[[],[]],[[],[]],[[""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[1,10,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -114189,7 +116125,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[],[]],[[""ToolKit""],[1]],[[],[]]],false]";
+									value="[[[[],[]],[[],[]],[[""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[1,10,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -114262,7 +116198,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[],[]],[[""ToolKit""],[1]],[[],[]]],false]";
+									value="[[[[],[]],[[],[]],[[""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[1,10,10]],[[],[]]],false]";
 								};
 							};
 						};
@@ -114335,7 +116271,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[],[]],[[],[]],[[""ToolKit""],[1]],[[],[]]],false]";
+									value="[[[[],[]],[[],[]],[[""ToolKit"",""ACE_Canteen"",""ACE_MRE_BeefStew""],[1,10,10]],[[],[]]],false]";
 								};
 							};
 						};
