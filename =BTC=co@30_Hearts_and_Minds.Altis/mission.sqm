@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=4155;
+		nextID=4156;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1226;
+		nextID=1270;
 	};
 	class Camera
 	{
-		pos[]={951.53528,32.645786,1655.6738};
-		dir[]={-0.85760802,-0.43761587,-0.2702069};
-		up[]={-0.41750607,0.89910054,-0.13154399};
-		aside[]={-0.30050999,1.2933015e-07,0.9537853};
+		pos[]={901.15955,37.49688,1572.7271};
+		dir[]={-0.36016366,-0.43144995,0.82720143};
+		up[]={-0.17229229,0.90206134,0.39570925};
+		aside[]={0.91692179,4.9651135e-07,0.39922711};
 	};
 };
 binarizationWanted=0;
@@ -87353,7 +87353,7 @@ class Mission
 							name="Implotonamento";
 							class Entities
 							{
-								items=12;
+								items=13;
 								class Item0
 								{
 									dataType="Object";
@@ -87768,17 +87768,51 @@ class Mission
 										nAttributes=1;
 									};
 								};
+								class Item12
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={882.32031,17.370543,1622.5277};
+										angles[]={-0,6.2610412,0};
+									};
+									side="Empty";
+									flags=4;
+									class Attributes
+									{
+										dynamicSimulation=1;
+									};
+									id=4155;
+									type="Land_WaterCooler_01_new_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="allowDamage";
+											expression="_this allowdamage _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										nAttributes=1;
+									};
+								};
 							};
 							id=4107;
-							atlOffset=0.9529171;
+							atlOffset=4.9375772;
 						};
 					};
 					id=4106;
-					atlOffset=0.9529171;
+					atlOffset=4.9375772;
 				};
 			};
 			id=4128;
-			atlOffset=0.9529171;
+			atlOffset=4.9375772;
 		};
 		class Item334
 		{
