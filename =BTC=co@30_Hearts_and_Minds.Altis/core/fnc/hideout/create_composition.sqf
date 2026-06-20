@@ -29,7 +29,7 @@ private _type_bigbox = selectRandom ["Box_FIA_Ammo_F", "C_supplyCrate_F", "Box_E
 private _power = selectRandom btc_type_power;
 
 private _composition_hideout = [
-    [selectRandom btc_type_campfire,0,[-2.30957,-1.02979,0]],
+    //[selectRandom btc_type_campfire,0,[-2.30957,-1.02979,0]],
     [_type_bigbox,121.331,[0.675781,-1.52539,0]],
     [selectRandom btc_type_bigbox,227.166,[2.66504,1.4126,0]],
     [selectRandom btc_type_sleepingbag,135.477,[0.758789,-3.91309,0]],
