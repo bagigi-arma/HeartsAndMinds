@@ -28,6 +28,7 @@ private _loadouts = [
 			["(KSM) Gruppenführer", [], []],
 			["(KSM) Truppenführer", [], []],
 			["(KSM) Recondrohnenbediener", [], []],
+			["(KSM) Funker", [], []],
 			["(KSM) Scharfschütze", [], []],
 			["(KSM) Leichtermaschinengewehrschütze", [], []],
 			["(KSM) Obersanitätsoffizier HK33", [], ["doc"]],
@@ -35,7 +36,9 @@ private _loadouts = [
 			["(KSM) Pioner HK33", [], ["eod", "eng"]],
 			["(KSM) Pioner MP5", [], ["eod", "eng"]],
 			["(KSM) Panzerfaustschütze", [], []],
-			["(KSM) Schütze", [], []]
+			["(KSM) Schütze", [], []],
+			["(KSM) Reservekräfte", [], []]
+			
 		]
 	],
 	[
