@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1508;
+		nextID=1556;
 	};
 	class Camera
 	{
-		pos[]={900.63818,24.889057,1632.6411};
-		dir[]={-0.79976916,-0.5324707,-0.27720788};
-		up[]={-0.50310642,0.84644842,-0.17438164};
-		aside[]={-0.32749528,0,0.94485277};
+		pos[]={918.20374,47.10424,1713.2358};
+		dir[]={-0.12635045,-0.23880269,-0.96282631};
+		up[]={-0.031071825,0.971066,-0.23677732};
+		aside[]={-0.99150729,4.7439244e-09,0.13011429};
 	};
 };
 binarizationWanted=0;
@@ -149,9 +149,9 @@ addons[]=
 	"ace_trenches",
 	"UK3CB_Factions_Weapons_G3",
 	"bwa3_optics",
+	"ace_field_rations",
 	"A3_Characters_F_Common",
 	"A3_Structures_F_Bootcamp_Items_Electronics",
-	"ace_field_rations",
 	"A3_Props_F_Orange_Items_Electronics",
 	"A3_Structures_F_Heli_Items_Electronics",
 	"bwa3_dingo2",
@@ -752,17 +752,17 @@ class AddonsMetaData
 		};
 		class Item85
 		{
-			className="A3_Structures_F_Bootcamp";
-			name="Arma 3 Bootcamp Update - Buildings and Structures";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item86
-		{
 			className="ace_field_rations";
 			name="ACE3 - Field Rations";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
+		};
+		class Item86
+		{
+			className="A3_Structures_F_Bootcamp";
+			name="Arma 3 Bootcamp Update - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 		class Item87
 		{
@@ -39821,7 +39821,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=11;
+																					items=12;
 																					class Item0
 																					{
 																						class data
@@ -39991,6 +39991,33 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_microDAGR";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item7
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -40019,7 +40046,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item8
 																					{
 																						class data
 																						{
@@ -40054,7 +40081,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item9
 																					{
 																						class data
 																						{
@@ -40089,7 +40116,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item9
+																					class Item10
 																					{
 																						class data
 																						{
@@ -40124,7 +40151,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item10
+																					class Item11
 																					{
 																						class data
 																						{
@@ -41365,7 +41392,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=12;
+																					items=13;
 																					class Item0
 																					{
 																						class data
@@ -41535,6 +41562,33 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_microDAGR";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item7
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -41563,7 +41617,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item8
 																					{
 																						class data
 																						{
@@ -41598,7 +41652,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item9
 																					{
 																						class data
 																						{
@@ -41633,7 +41687,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item9
+																					class Item10
 																					{
 																						class data
 																						{
@@ -41668,7 +41722,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item10
+																					class Item11
 																					{
 																						class data
 																						{
@@ -41703,7 +41757,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item11
+																					class Item12
 																					{
 																						class data
 																						{
@@ -42964,7 +43018,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=41;
+																					items=42;
 																					class Item0
 																					{
 																						class data
@@ -43944,6 +43998,33 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_microDAGR";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item37
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -43972,7 +44053,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item37
+																					class Item38
 																					{
 																						class data
 																						{
@@ -44007,7 +44088,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item38
+																					class Item39
 																					{
 																						class data
 																						{
@@ -44042,7 +44123,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item39
+																					class Item40
 																					{
 																						class data
 																						{
@@ -44077,7 +44158,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item40
+																					class Item41
 																					{
 																						class data
 																						{
@@ -45318,7 +45399,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=41;
+																					items=42;
 																					class Item0
 																					{
 																						class data
@@ -46298,6 +46379,33 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_microDAGR";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item37
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -46326,7 +46434,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item37
+																					class Item38
 																					{
 																						class data
 																						{
@@ -46361,7 +46469,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item38
+																					class Item39
 																					{
 																						class data
 																						{
@@ -46396,7 +46504,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item39
+																					class Item40
 																					{
 																						class data
 																						{
@@ -46431,7 +46539,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item40
+																					class Item41
 																					{
 																						class data
 																						{
@@ -47753,7 +47861,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=11;
+																					items=12;
 																					class Item0
 																					{
 																						class data
@@ -47923,6 +48031,33 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_microDAGR";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item7
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -47951,7 +48086,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item8
 																					{
 																						class data
 																						{
@@ -47986,7 +48121,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item9
 																					{
 																						class data
 																						{
@@ -48021,7 +48156,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item9
+																					class Item10
 																					{
 																						class data
 																						{
@@ -48056,7 +48191,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item10
+																					class Item11
 																					{
 																						class data
 																						{
@@ -49679,7 +49814,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=11;
+																					items=12;
 																					class Item0
 																					{
 																						class data
@@ -49822,6 +49957,33 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_microDAGR";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item6
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -49850,7 +50012,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item6
+																					class Item7
 																					{
 																						class data
 																						{
@@ -49885,7 +50047,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item8
 																					{
 																						class data
 																						{
@@ -49920,7 +50082,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item9
 																					{
 																						class data
 																						{
@@ -49955,7 +50117,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item9
+																					class Item10
 																					{
 																						class data
 																						{
@@ -49990,7 +50152,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item10
+																					class Item11
 																					{
 																						class data
 																						{
@@ -52951,7 +53113,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=13;
+																					items=14;
 																					class Item0
 																					{
 																						class data
@@ -53121,6 +53283,33 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_microDAGR";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item7
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -53149,7 +53338,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item8
 																					{
 																						class data
 																						{
@@ -53184,7 +53373,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item9
 																					{
 																						class data
 																						{
@@ -53219,7 +53408,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item9
+																					class Item10
 																					{
 																						class data
 																						{
@@ -53254,7 +53443,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item10
+																					class Item11
 																					{
 																						class data
 																						{
@@ -53289,7 +53478,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item11
+																					class Item12
 																					{
 																						class data
 																						{
@@ -53324,7 +53513,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item12
+																					class Item13
 																					{
 																						class data
 																						{
@@ -54927,7 +55116,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=11;
+																					items=12;
 																					class Item0
 																					{
 																						class data
@@ -55124,6 +55313,33 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_microDAGR";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item8
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -55152,7 +55368,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item9
 																					{
 																						class data
 																						{
@@ -55187,7 +55403,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item9
+																					class Item10
 																					{
 																						class data
 																						{
@@ -55222,7 +55438,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item10
+																					class Item11
 																					{
 																						class data
 																						{
@@ -56498,7 +56714,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=13;
+																					items=14;
 																					class Item0
 																					{
 																						class data
@@ -56695,6 +56911,33 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_microDAGR";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item8
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -56723,7 +56966,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item9
 																					{
 																						class data
 																						{
@@ -56758,7 +57001,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item9
+																					class Item10
 																					{
 																						class data
 																						{
@@ -56793,7 +57036,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item10
+																					class Item11
 																					{
 																						class data
 																						{
@@ -56828,7 +57071,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item11
+																					class Item12
 																					{
 																						class data
 																						{
@@ -56863,7 +57106,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item12
+																					class Item13
 																					{
 																						class data
 																						{
@@ -58182,7 +58425,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=11;
+																					items=12;
 																					class Item0
 																					{
 																						class data
@@ -58352,6 +58595,33 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_microDAGR";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item7
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -58380,7 +58650,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item7
+																					class Item8
 																					{
 																						class data
 																						{
@@ -58415,7 +58685,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item8
+																					class Item9
 																					{
 																						class data
 																						{
@@ -58450,7 +58720,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item9
+																					class Item10
 																					{
 																						class data
 																						{
@@ -58485,7 +58755,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item10
+																					class Item11
 																					{
 																						class data
 																						{
@@ -60910,7 +61180,7 @@ class CustomAttributes
 																				singleType="ARRAY";
 																				class value
 																				{
-																					items=14;
+																					items=15;
 																					class Item0
 																					{
 																						class data
@@ -61161,6 +61431,33 @@ class CustomAttributes
 																							singleType="ARRAY";
 																							class value
 																							{
+																								items=2;
+																								class Item0
+																								{
+																									class data
+																									{
+																										singleType="STRING";
+																										value="ACE_microDAGR";
+																									};
+																								};
+																								class Item1
+																								{
+																									class data
+																									{
+																										singleType="SCALAR";
+																										value=1;
+																									};
+																								};
+																							};
+																						};
+																					};
+																					class Item10
+																					{
+																						class data
+																						{
+																							singleType="ARRAY";
+																							class value
+																							{
 																								items=3;
 																								class Item0
 																								{
@@ -61189,7 +61486,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item10
+																					class Item11
 																					{
 																						class data
 																						{
@@ -61224,7 +61521,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item11
+																					class Item12
 																					{
 																						class data
 																						{
@@ -61259,7 +61556,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item12
+																					class Item13
 																					{
 																						class data
 																						{
@@ -61294,7 +61591,7 @@ class CustomAttributes
 																							};
 																						};
 																					};
-																					class Item13
+																					class Item14
 																					{
 																						class data
 																						{
@@ -65324,7 +65621,7 @@ class Mission
 															};
 															id=2468;
 															type="Land_Pliers_F";
-															atlOffset=0.89606309;
+															atlOffset=0.89605927;
 															class CustomAttributes
 															{
 																class Attribute0
@@ -89684,19 +89981,19 @@ class Mission
 									class Item3
 									{
 										name="BWA3_15Rnd_9x19_P8";
-										count=2;
+										count=1;
 										ammoLeft=15;
 									};
 									class Item4
 									{
 										name="BWA3_30Rnd_556x45_G36_AP";
-										count=6;
+										count=5;
 										ammoLeft=30;
 									};
 								};
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACRE_PRC343";
@@ -89711,6 +90008,16 @@ class Mission
 									{
 										name="ACE_EntrenchingTool";
 										count=1;
+									};
+									class Item3
+									{
+										name="ACE_MRE_BeefStew";
+										count=1;
+									};
+									class Item4
+									{
+										name="ACE_Canteen";
+										count=2;
 									};
 								};
 							};
